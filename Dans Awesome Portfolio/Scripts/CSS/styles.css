@@ -1,0 +1,152 @@
+@charset "UTF-8";
+body {
+    font-family: open-sans-condensed;
+    font-style: normal;
+    font-weight: 300;
+    background-color: #EAEAEA;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+
+
+/*Global / Desktop View*/
+header {
+	background-color: rgba(0,0,0,0.65);
+	padding-top: 12px;
+	padding-left: 19px;
+	padding-right: 19px;
+	padding-bottom: 12px;
+}
+.container {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.hero-image {
+    height: 653px;
+    background-image: url(../../Gallery/hero-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 19px;
+}
+nav {
+	float: right;
+}
+.mobile-view {
+	display: none;
+}
+.desktop-view {
+	margin-top: -4px;
+}
+.desktop-view ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+.desktop-view ul li a {
+	padding-top: 13px;
+	padding-right: 43px;
+	padding-bottom: 13px;
+	padding-left: 43px;
+	text-decoration: none;
+	color: #E8E8E8;
+}
+.btn-red {
+	background-color: #FF6138;
+}
+.btn-green {
+	background-color: #00A388;
+}
+main {
+    min-height: 800px;
+}
+footer {
+    height: 97px;
+    margin-top: 33px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.social-icons {
+    float: left;
+    margin-top: 11px;
+    display: inline;
+}
+
+.social-icons img  {
+    margin-right: 30px;
+}
+.copyright {
+    float: right;
+    margin-top: 26px;
+}
+
+
+
+
+
+
+
+
+
+/*Tablet View*/
+@media (min-width: 401px) and (max-width: 768px){
+.mobile-view {
+    display: block;
+    float: right;
+    margin-top: 7px;
+}
+.desktop-view {
+    display: none;
+    text-align: right;
+}
+.expand {
+	display: block;
+}	
+.desktop-view ul li   {
+    display: block;
+    margin-top: 25px;
+}
+
+}
+
+
+
+/*Mobile View*/
+@media (max-width: 400px){
+.mobile-view {
+    display: block;
+    text-align: right;
+    margin-top: -30px;
+}
+.desktop-view {
+    display: none;
+    text-align: right;
+}
+.expand {
+	display: block;
+}	
+header a img {
+    width: 83%;
+    height: 83%;
+}
+.desktop-view ul li {
+    display: block;
+    margin-top: 25px;
+}
+.hero-image {
+    height: 526px;
+}
+
+
+
+
+
+}
